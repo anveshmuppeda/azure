@@ -22,6 +22,8 @@ PS C:\agent> .\run.cmd
 1. Click on User settings from right corner on the console.  
 2. Then click on Personal Access tokens.  
 3. Then create New Token.  
+
+
 Reference:  
 ![image](https://github.com/anveshmuppeda/azure/assets/115966808/50381803-0a19-452f-a82b-c7be4d9fa7ea)
 ```
