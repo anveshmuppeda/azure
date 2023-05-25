@@ -17,6 +17,33 @@ PS C:\agent> .\config.cmd
    If you didn't run as a service above(this will help us to make this agent online on portal):
 ```
 PS C:\agent> .\run.cmd
+```  
+## PAT(Personal Access token):
+1. Click on User settings from right corner on the console.  
+2. Then click on Personal Access tokens.  
+3. Then create New Token.  
+Reference:  
+![image](https://github.com/anveshmuppeda/azure/assets/115966808/50381803-0a19-452f-a82b-c7be4d9fa7ea)
+```
+>> Connect:
+
+Enter server URL > https://dev.azure.com/muppedaanvesh
+Enter authentication type (press enter for PAT) >
+Enter personal access token > ****************************************************
+Connecting to server ...
+
+>> Register Agent:
+
+Enter agent pool (press enter for default) >
+Enter agent name (press enter for IT-5CD238KMXC) >
+Scanning for tool capabilities.
+Connecting to the server.
+Successfully added the agent
+Testing agent connection.
+Enter work folder (press enter for _work) >
+2023-05-25 02:35:21Z: Settings Saved.
+Enter run agent as service? (Y/N) (press enter for N) >
+Enter configure autologon and run agent on startup? (Y/N) (press enter for N) >
 ```
 ### Setup local agent on Linux
 1. First download the reuqired agent on local machine from below [URL](https://vstsagentpackage.azureedge.net/agent/3.220.2/vsts-agent-linux-x64-3.220.2.tar.gz).
