@@ -12,9 +12,12 @@
 10. Then Save & Queue
 11. Enter the Save Comment.
 12. Then final step Click on Save and Run.  
+  
 Step 6:  
 ![image1](https://github.com/anveshmuppeda/azure/assets/115966808/02a853eb-edbd-4239-9791-e00a71622194)
+  
 Step 9:  
-![image](https://github.com/anveshmuppeda/azure/assets/115966808/db573987-bdb6-409f-8fbe-03731965959c)
+![image](https://github.com/anveshmuppeda/azure/assets/115966808/db573987-bdb6-409f-8fbe-03731965959c)  
+  
 Step 11 & 12:  
-![image](https://github.com/anveshmuppeda/azure/assets/115966808/9736efcb-432a-4811-bcfb-2c560aff373e)
+![image](https://github.com/anveshmuppeda/azure/assets/115966808/9736efcb-432a-4811-bcfb-2c560aff373e)  
