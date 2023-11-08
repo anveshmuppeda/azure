@@ -22,3 +22,4 @@ trivy:
 
 
 https://www.bluetab.net/en/container-vulnerability-scanning-with-trivy/
+https://fig.io/manual/trivy/image/--exit-code
