@@ -19,3 +19,6 @@ trivy:
   script:
     - ./trivy --exit-code 0 --severity HIGH --no-progress --auto-refresh trivy-ci-test:${CI_COMMIT_REF_NAME}
     - ./trivy --exit-code 1 --severity CRITICAL --no-progress --auto-refresh trivy-ci-test:${CI_COMMIT_REF_NAME} 
+
+
+https://www.bluetab.net/en/container-vulnerability-scanning-with-trivy/
