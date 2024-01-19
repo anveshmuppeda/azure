@@ -29,3 +29,14 @@ It is a bridge between activities and linkedservices, they perforrm their tasks 
 1. Azure  
 2. Self Hosted IRs  
 3. Azure-SSIS  
+
+**IR type	        Public Network Support	        Private Link Support**  
+Azure	        Data Flow                       Data Flow  
+                Data movement                   Data movement  
+                Activity dispatch	            Activity dispatch  
+
+
+Self-hosted	    Data movement                   Data movement  
+                Activity dispatch	            Activity dispatch  
+
+Azure-SSIS	    SSIS package execution	        SSIS package execution  
