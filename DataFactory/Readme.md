@@ -28,7 +28,7 @@ It is a bridge between activities and linkedservices, they perforrm their tasks 
 ### Types of IRs  
 1. Azure  
 2. Self Hosted IRs  
-3. Azure-SSIS  
+3. Azure-SSIS(Shared self hosted integration runtimes)  
 
 **IR type	        Public Network Support	        Private Link Support**  
 Azure	        Data Flow                       Data Flow  
