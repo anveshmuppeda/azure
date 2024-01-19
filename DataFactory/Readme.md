@@ -25,3 +25,7 @@ Task which you want to perform like copy
 
 ## Integration Runtime  
 It is a bridge between activities and linkedservices, they perforrm their tasks on these integration runtimes  
+### Types of IRs  
+1. Azure  
+2. Self Hosted IRs  
+3. Azure-SSIS  
