@@ -17,8 +17,8 @@ We have three types of pipelines.
 3. Event Based Pipelines. (based on event it will trigger)  
 
 ## Datasets  
-Also we have  
-Datasets  
+Also we have Datasets  
+Dataset is nothing but pointer to a data.  
 
 ## Activities  
 Task which you want to perform like copy  
