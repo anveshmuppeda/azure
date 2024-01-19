@@ -40,3 +40,8 @@ Self-hosted	    Data movement                   Data movement
                 Activity dispatch	            Activity dispatch  
 
 Azure-SSIS	    SSIS package execution	        SSIS package execution  
+
+https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtime  
+
+![IRs](<IRs.png>)  
+
