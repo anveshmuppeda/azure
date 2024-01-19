@@ -48,3 +48,4 @@ https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtim
 
 ## ARM Templates:  
 Entire code representation of our Azure Data Factory or Azure resources.  
+So using ARM templates by using power shell scripts we can create/manage Azure resources by automates passion using scripts.    
