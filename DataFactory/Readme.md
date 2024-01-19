@@ -45,3 +45,6 @@ https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtim
 
 ![IRs](<IRs.png>)  
 
+
+## ARM Templates:  
+Entire code representation of our Azure Data Factory or Azure resources.  
