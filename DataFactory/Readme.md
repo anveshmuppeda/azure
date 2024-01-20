@@ -56,4 +56,6 @@ Once we publish the changes to ADF, azure will create a new branch in Azure repo
 ## Verifications  
 1. Go to the respective resource group and verify all the services 
 2. Verify the adf_publish branch  
+3. Check the Azure subscription is common or not across all environments  
+4. Service principle (service principles are present under APP REGISTRATIONS)
 
