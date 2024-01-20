@@ -5,3 +5,10 @@ So in short words **Azure Databricks** is used to process the huge data nothing 
 
 ## Server less  
 ADB is a serverless  
+
+## Basic concepts and tasks  
+### Notebooks  
+Notebooks are interactive documents that contain both code (in languages like Python, Scala, SQL, etc.) and rich-text elements. Notebooks are used for data exploration, analysis, and visualization. Users can create, edit, and execute code within notebooks.  
+
+### Clusters  
+Clusters are virtual machines that provide the computing resources for running notebooks and jobs. You can create and configure clusters based on your workload requirements. Clusters can be auto-scaled to adapt to changing workloads.
