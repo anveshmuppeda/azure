@@ -48,4 +48,11 @@ https://learn.microsoft.com/en-us/azure/data-factory/concepts-integration-runtim
 
 ## ARM Templates:  
 Entire code representation of our Azure Data Factory or Azure resources.  
-So using ARM templates by using power shell scripts we can create/manage Azure resources by automates passion using scripts.    
+So using ARM templates by using power shell scripts we can create/manage Azure resources by automates passion using scripts.  
+
+## adf_publish  
+Once we publish the changes to ADF, azure will create a new branch in Azure repos called **adf_publish** and upload the ARM templates to it.
+
+## Verifications  
+Go to the respective resource group and verify all the services 
+
