@@ -54,5 +54,6 @@ So using ARM templates by using power shell scripts we can create/manage Azure r
 Once we publish the changes to ADF, azure will create a new branch in Azure repos called **adf_publish** and upload the ARM templates to it.
 
 ## Verifications  
-Go to the respective resource group and verify all the services 
+1. Go to the respective resource group and verify all the services 
+2. Verify the adf_publish branch  
 
