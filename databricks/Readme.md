@@ -15,6 +15,9 @@ Notebooks are interactive documents that contain both code (in languages like Py
 ### Clusters  
 Clusters are virtual machines that provide the computing resources for running notebooks and jobs. You can create and configure clusters based on your workload requirements. Clusters can be auto-scaled to adapt to changing workloads.  
 
+### Workspace  
+An Azure Databricks workpace is an environment for accessing all your Azure Databricks Assets.  
+
 ## Verifications  
 1. Verify clusters  
 2. Verify notebooks  
