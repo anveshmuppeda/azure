@@ -1,0 +1,32 @@
+trigger: none
+
+pool: windows-manasa
+steps:
+
+- task: AzurePowerShell@5
+  displayName: Connecting to ADF
+  inputs:
+    azureSubscription: 'adf-service-connection-one'  # Replace with your Azure service connection name
+    scriptType: 'InlineScript'
+    azurePowerShellVersion: LatestVersion
+    Inline: |
+      Write-Host "Azure Data Factory Name"
+      Write-Host "Test"
+      $adfName = (Get-AzDataFactoryV2 -ResourceGroupName adf-phase-one-rg -Name anvesh-adf-phase-one).DataFactoryName
+      Write-Host "Azure Data Factory Name: $adfName"
+      
+      $parametersFilePath = '$(System.DefaultWorkingDirectory)/devops/adf-parameters.json'
+      #$parameters = Get-Content -Raw -Path $parametersFilePath | ConvertFrom-Json
+
+      # Function to convert custom object to hashtable
+      function ConvertTo-Hashtable ($object) {
+        $hashTable = @{}
+        $object.PSObject.Properties | ForEach-Object { $hashTable[$_.Name] = $_.Value }
+        return $hashTable
+      }
+      $parameters = Get-Content -Raw -Path $parametersFilePath | ConvertFrom-Json
+      
+      #$parameters = Get-Content -Raw -Path $parametersFilePath | ConvertFrom-Json | ForEach-Object { $_.PSObject.Properties | ForEach-Object { @{$_.Name = $_.Value } } }
+      
+      Write-Host "Invoke Az Pipeline"
+      Invoke-AzDataFactoryV2Pipeline -ResourceGroupName adf-phase-one-rg -DataFactoryName anvesh-adf-phase-one -PipelineName pipeline1 -Parameter (ConvertTo-Hashtable $parameters)
